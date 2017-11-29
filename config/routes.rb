@@ -142,7 +142,7 @@ Expertiza::Application.routes.draw do
       post :save_grade_and_comment_for_submission
     end
   end
- 
+
   resources :impersonate do
     collection do
       get :start
